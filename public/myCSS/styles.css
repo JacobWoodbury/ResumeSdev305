@@ -1,11 +1,32 @@
+
+header #jwPic{
+    margin-bottom: 0.5in;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
 h1{
     text-align: center;
-    background-color: black;
+    font: size 2in;;
 }
 
-header{
-    display: flex;
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+section{
+    clear:both;
 }
 img{
-    width: 30px;
+    width: 60px;
+}
+body{
+    padding-left: 1in;
+    padding-right: 1in;
+    margin-right: 1in;
+    margin-left: 1in;
+    background-color: beige;
+    border-left: 2px solid;
+    border-right: 2px solid;
 }
